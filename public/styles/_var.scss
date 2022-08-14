@@ -1,0 +1,9 @@
+// Variables
+$black85: rgba(0,0,0,0.85);
+
+
+// Mixins
+@mixin fitContainer {
+  width: 100% !important;
+  height: 100% !important;
+}
