@@ -11,9 +11,9 @@ const Nav = props => {
         <a href="#" className="contact-link">Contact</a>
       </div>
       <div className="nav-socials">
-        <div className="social linkedin-logo"></div>
-        <div className="social github-logo"></div>
-        <div className="social gmail-logo"></div>
+        <a href='https://www.linkedin.com/in/sasenarine-ramaischrand/' target="__blank"><div className="social linkedin-logo"></div></a>
+        <a href='https://github.com/sase6' target="__blank"><div className="social github-logo"></div></a>
+        <a ><div className="social gmail-logo" onClick={() => window.navigator.clipboard.writeText('bs.saase@gmail.com')}></div></a>
       </div>
     </nav>
   );

@@ -34,6 +34,22 @@ nav {
   width: 35px;
   height: 35px;
   border-radius: 100%;
-  border: 1px solid white;
   margin-left: 20px;
+  background-size: cover !important;
+}
+
+.social:hover {
+  cursor: pointer;
+}
+
+.linkedin-logo {
+  background: url('../img/linkedin-logowebp');
+}
+
+.github-logo {
+  background: url('../img/github-logo.png');
+}
+
+.gmail-logo {
+  background: url('../img/gmail-logo.png');
 }

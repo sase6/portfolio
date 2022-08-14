@@ -3,6 +3,7 @@
 @import './var';
 @import './nav';
 @import './overview';
+@import './featured';
 
 * {
   margin: 0;
@@ -12,13 +13,21 @@
 
 body {
   @include fitContainer();
-  background-color: $black85;
+  // background-color: $black85;
+  background-color: black;
 }
 
 .app {
   width: 60%;
   min-width: 800px;
+  max-width: 1200px;
   margin: auto;
   min-height: 3000px;
-  background-color: rgba(255,255,255,0.015);
+  // background-color: rgba(255,255,255,0.015);
+}
+
+.section-header {
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
 }
