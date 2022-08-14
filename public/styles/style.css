@@ -166,6 +166,7 @@ nav {
   grid-template-rows: -webkit-max-content -webkit-max-content -webkit-max-content;
   grid-template-rows: max-content max-content max-content;
   grid-row-gap: 10px;
+  margin-bottom: 50px;
 }
 
 .featured-projects-list {
@@ -203,6 +204,89 @@ nav {
   cursor: pointer;
 }
 
+.nce1-featured {
+  background: url("../img/nce1.loca.lt-ss.png") !important;
+  background-size: cover !important;
+}
+
+.fec-featured {
+  background: url("../img/reviews-widget.png");
+  background-position: center;
+  background-size: cover !important;
+}
+
+.stacks {
+  display: grid;
+  grid-template-rows: -webkit-max-content -webkit-max-content;
+  grid-template-rows: max-content max-content;
+  grid-row-gap: 20px;
+}
+
+.stacks-list {
+  position: relative;
+  display: grid;
+  align-items: center;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  grid-template-columns: 75px 75px 75px 75px 75px 75px 75px 75px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.tech-stack {
+  width: 75px;
+  height: 75px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-size: cover !important;
+  background-color: white !important;
+}
+
+.mongo-stack {
+  background: url("../img/mongo.png");
+}
+
+.express-stack {
+  background: url("../img/express.png");
+}
+
+.react-stack {
+  background: url("../img/react.webp");
+}
+
+.node-stack {
+  background: url("../img/node.jpg");
+}
+
+.js-stack {
+  background: url("../img/js-logo.png");
+}
+
+.html-stack {
+  background: url("../img/html-logo.webp");
+}
+
+.css-stack {
+  background: url("../img/css-logo.webp");
+}
+
+.sass-stack {
+  background: url("../img/sass-logo.png");
+}
+
+.mui-stack {
+  background: url("../img/mui-logo.png");
+}
+
+.git-stack {
+  background: url("../img/git-logo.png");
+}
+
+.electron-stack {
+  background: url("../img/electron.png");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -213,6 +297,13 @@ body {
   width: 100% !important;
   height: 100% !important;
   background-color: black;
+  height: 100vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .app {

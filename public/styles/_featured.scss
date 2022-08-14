@@ -4,6 +4,7 @@
   @include defaultGrid();
   grid-template-rows: max-content max-content max-content;
   grid-row-gap: 10px;
+  margin-bottom: 50px
 }
 
 .featured-projects-list {
@@ -36,4 +37,15 @@
 }
 .more-projects-link:hover {
   cursor: pointer;
+}
+
+.nce1-featured {
+  background: url('../img/nce1.loca.lt-ss.png') !important;
+  background-size: cover !important;
+}
+
+.fec-featured {
+  background: url('../img/reviews-widget.png');
+  background-position: center;
+  background-size: cover !important;
 }

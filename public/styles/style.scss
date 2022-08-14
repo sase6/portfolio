@@ -4,6 +4,7 @@
 @import './nav';
 @import './overview';
 @import './featured';
+@import './stacks';
 
 * {
   margin: 0;
@@ -15,6 +16,13 @@ body {
   @include fitContainer();
   // background-color: $black85;
   background-color: black;
+  height: 100vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .app {
