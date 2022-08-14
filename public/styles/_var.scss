@@ -7,3 +7,9 @@ $black85: rgba(0,0,0,0.85);
   width: 100% !important;
   height: 100% !important;
 }
+
+@mixin defaultGrid {
+  position: relative;
+  display: grid;
+  align-items: center;
+}

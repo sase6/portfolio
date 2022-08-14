@@ -1,13 +1,16 @@
 //Imports 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import './var';
+@import './nav';
 
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
-  @include fitContainer;
+  @include fitContainer();
   background-color: $black85;
 }
 

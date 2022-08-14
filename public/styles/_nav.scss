@@ -1,0 +1,39 @@
+@import './var';
+
+@mixin navLink {
+  color: white !important;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600
+}
+
+nav {
+  @include defaultGrid();
+  height: 100px;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 50px //Experimental
+}
+
+.nav-links {
+  @include defaultGrid();
+  grid-template-columns: max-content max-content max-content max-content;
+  grid-column-gap: 20px;
+}
+
+.nav-links * {
+  @include navLink();
+}
+
+.nav-socials {
+  @include defaultGrid();
+  grid-template-columns: max-content max-content max-content;
+  justify-content: right;
+}
+
+.social {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin-left: 20px;
+}
