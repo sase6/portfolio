@@ -41,6 +41,92 @@ nav {
   margin-left: 20px;
 }
 
+nav {
+  position: relative;
+  display: grid;
+  align-items: center;
+  height: 100px;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 50px;
+}
+
+.nav-links {
+  position: relative;
+  display: grid;
+  align-items: center;
+  grid-template-columns: -webkit-max-content -webkit-max-content -webkit-max-content -webkit-max-content;
+  grid-template-columns: max-content max-content max-content max-content;
+  grid-column-gap: 20px;
+}
+
+.nav-links * {
+  color: white !important;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-socials {
+  position: relative;
+  display: grid;
+  align-items: center;
+  grid-template-columns: -webkit-max-content -webkit-max-content -webkit-max-content;
+  grid-template-columns: max-content max-content max-content;
+  justify-content: right;
+}
+
+.social {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin-left: 20px;
+}
+
+.overview {
+  position: relative;
+  display: grid;
+  align-items: center;
+  align-items: baseline;
+  grid-template-columns: -webkit-max-content -webkit-max-content;
+  grid-template-columns: max-content max-content;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.overview-text-container {
+  width: 30vw;
+  min-width: 400px;
+}
+
+.full-name {
+  font-size: 32px;
+  color: white;
+  font-weight: 900;
+}
+
+.sub-about-me {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.1);
+  font-weight: 600;
+}
+
+.shortened-about-me {
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  background: url("../img/sase-profile.jpeg");
+  background-size: cover;
+}
+
 * {
   margin: 0;
   padding: 0;

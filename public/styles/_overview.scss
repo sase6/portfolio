@@ -1,0 +1,42 @@
+@import './nav';
+
+.overview {
+  @include defaultGrid;
+  align-items: baseline;
+  grid-template-columns: max-content max-content;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.overview-text-container {
+  width: 30vw;
+  min-width: 400px;
+}
+
+.full-name {
+  font-size: 32px;
+  color: white;
+  font-weight: 900;
+}
+
+.sub-about-me {
+  font-size: 16px;
+  color: $white10;
+  font-weight: 600;
+}
+
+.shortened-about-me {
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: $white10;
+  background: url('../img/sase-profile.jpeg');
+  background-size: cover;
+}
